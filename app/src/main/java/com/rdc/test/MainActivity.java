@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements OnStartDragListen
 
     private void initData() {
         mList = new ArrayList<>();
-        String [] strings = {"","","휴식","스쿼트 30회\n크런치 30회\n레그레이즈 30회","휴식","스쿼트 40회\n크런치 40회\n레그레이즈 40회","휴식"};
+        String [] strings = {"","","휴식","","휴식","스쿼트 40회\n크런치 40회\n레그레이즈 40회","휴식"};
         for (String string : strings) {
             ItemEntity item = new ItemEntity();
             item.setChecked(false);
